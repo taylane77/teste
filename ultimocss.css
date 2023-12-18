@@ -1,0 +1,125 @@
+body {
+   	margin:0 0 5px 0;
+	padding:0;
+	background-color:#800080;
+	font:100% New York Font, hevetica, sans-serif;
+	/*A área de margem está definido nos quatro lados do elemento*/
+	/* topo: margem de 0 */
+	/* direita:  margem de 0  */
+	/* inferior: margem de 5px */
+	/* esquerda: margem de 0px  */
+	
+	/*o padding está responsável por definir uma distância 
+	interna entre um elemento e sua borda com o valor de 0*/
+	
+	/*o background-color está a definir a cor do plano de fundo da página ao todo*/
+	/* a tag font está responsável por definir a formatação da 
+	fonte utilizada na minha página.*/
+	
+}
+#topo{
+	width:auto;
+	height:180px;
+	padding:3px 0 0 0;
+	background-color:#400040;
+	border-top:1px solid #800080;
+	border-bottom:2px dotted #000000;
+	color:#ff0000;
+	text-align:center;
+	/* O width auto está definido a largura total no topo da página*/
+	/* O height está definido a altura da área do conteúdo.*/
+	/* background-color está definido a cor do elemento do topo da página para roxo*/
+	/* border-top está aplicando borda na parte superior do elemento.Com a cor preta e solida.*/
+	/* border-bottom estou  especificando, que quero a borda apenas no BOTTOM, 
+	ou seja abaixo do elemento.*/
+	/* color estou definindo a cor do título da página inicial para vermelho.*/
+	/* text-aling estou colocando o nome do título na página no meio ou seja, no centro.*/
+	
+}
+.titulo{
+
+	position: relative;
+	top: 30px;
+	font-size: 50px;
+     /* positino relative está determinando que o título da página será posicionado
+	 de acordo com o fluxo natural da página.*/
+	 /* a tag top está posicionando o título em uma coodernada de 30px*/
+	 /*font-size está definindo o tamanho do título da página*/
+
+
+}
+#conteudoEsq {
+	position:absolute;
+	width:190px;
+	top:175px;
+	left:5px;
+	color:#000000;
+	padding-bottom:20px;
+	border-bottom:3px double #000000;
+    /*position absolute indica que o texto ficará em uma posição fixa em relação à página.*/
+    /* O width está definido a largura do texto da página para 190px*/
+    /* a tag top está posicionando o texto em uma coodernada de 173px*/
+    /*left definindo a espaço preenchido no lado esquerdo.*/
+    /* color a cor do texto é preto*/
+    /*font size é o tamanho da fonte do texto*/
+    /*padding bottom indica as dimensões do espaçamento interno inferior*/
+}
+#sepEsqcolCentral {
+	margin-left:200px;
+	padding-left:2px;
+	background:#800080;
+	/*margin-left define as dimensões da margem esquerda distância do
+	 texto para o texto conseguinte*/
+	 /*padding-left define o espaço de preenchimento obrigatório no lado esquerdo
+    do elemento.*/
+    /* background cor da coluna */
+}
+#colCentral {    
+	background:#800080;
+	color:#000000;
+	padding:2px 10px;
+	text-align:justify;
+	border-bottom:1px solid #800080;
+	 /* background cor da coluna */
+	 /*cor do texto*/
+	 /*padding defini uma distância interna entre um elemento e sua borda.*/
+	 /*text-aling é para justificar, alinhar o texto em ambos lados.*/
+	 /* border-bottom estou  especificando, que quero a borda apenas no BOTTOM, 
+	ou seja abaixo do elemento.*/ 
+}
+.titulo1{
+	text-align: center;
+	/* text-aling estou colocando o nome do título na página no meio ou seja,
+	 no centro.*/
+}
+.subtitulo{
+	font-size:20px;
+	/*tamanho da fonte do texto*/
+}
+.imagem1{
+	float:left;
+	/*O float posiciona o texto do lado da imagem*/
+	
+}
+.imagem2{
+	float:left;
+	/*O float posiciona o texto do lado da imagem*/
+	
+}
+#imagem3{
+	float:left;
+	/*O float posiciona o texto do lado da imagem*/
+}
+.img{
+	float: left;
+	/*O float posiciona o texto do lado da imagem*/
+	
+}
+	
+		
+	
+	
+	
+    
+	
+		

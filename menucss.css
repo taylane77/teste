@@ -1,0 +1,192 @@
+body { /* No body está contendo tudo o que é o conteúdo do site*/
+   	margin:0 0 5px 0;
+	padding:0;
+	background-color:#800080;
+	font:85% New York Font, hevetica, sans-serif;
+	
+	/*A área de margem está definido nos quatro lados do elemento*/
+	/* topo: margem de 0 */
+	/* direita:  margem de 0  */
+	/* inferior: margem de 5px */
+	/* esquerda: margem de 0px  */
+	
+	/*o padding está responsável por definir uma distância 
+	interna entre um elemento e sua borda com o valor de 0*/
+	
+	/*o background-color está a definir a cor do plano de fundo da página ao todo*/
+	/* a tag font está responsável por definir a formatação da 
+	fonte utilizada na minha página.*/
+}
+
+#topo{
+	width:auto;
+	height:180px;
+	background-color:#400040;
+	border-top:1px solid #000000;
+	border-bottom:2px dotted #000000;
+	color:#ff0000;
+	text-align:center;
+	font:arial,italic,times,"times new roman",
+	serif;
+	
+	/* O width auto está definido a largura total no topo da página*/
+	/* O height está definido a altura da área do conteúdo.*/
+	/* background-color está definido a cor do elemento do topo da página para roxo*/
+	/* border-top está aplicando borda na parte superior do elemento.Com a cor preta e solida.*/
+	/* border-bottom estou  especificando, que quero a borda apenas no BOTTOM, 
+	ou seja abaixo do elemento.*/
+	/* color estou definindo a cor do título da página inicial para vermelho.*/
+	/* text-aling estou colocando o nome do título na página no meio ou seja, no centro.*/
+    /* font está responsável por definir a formatação da 
+	fonte utilizada na minha página.*/
+	
+	 
+}
+
+.titulo{
+
+	position: relative;
+	top: 30px;
+	font-size: 50px;
+	/* positino relative está determinando que o título da página será posicionado
+	 de acordo com o fluxo natural da página.*/
+	 /* a tag top está posicionando o título em uma coodernada de 30px*/
+	 /*font-size está definindo o tamanho do título da página*/
+}
+	
+#biografia {
+	position:absolute;
+	width:350px;
+	top:60px;
+	left:5px;
+	color:#000000;
+	font:115% arial,times,"times new roman",
+	serif;
+	position:relative;
+	top: 3px;
+	/* positino absolute indica que o texto ficará em uma posição fixa em relação à página..*/
+	 /* O width está definido a largura do texto da página para 350px*/
+	  /* a tag top está posicionando o texto em uma coodernada de 60px*/
+	 /* O left está  definindo a posição horizontal do elemento em relação
+	  a sua borda esquerda.*/
+	  /*color está definindo a cor do texto*/
+	  /* font está definindo o tamanho do texto e defindo a fonte arial*/
+	/* position relative está determinando que o texto da página será posicionado
+	 de acordo com o fluxo natural da página.*/
+	 /* o top em 3px está posicionando o texto para cima*/
+	
+}
+#conteudoDir {
+	position:absolute;
+	width:160px;
+	top:195px;
+	right:30px;
+	color:#000000;
+	font-size:15px;
+	/*position absolute indica que o texto ficará em uma posição fixa em relação à página.*/
+    /* O width está definido a largura do texto da página para 160px*/
+    /* a tag top está posicionando o texto em uma coodernada de 160px*/
+    /*right definindo a posição horizontal do texto em relação a borda direita.*/
+    /* color a cor do texto é preto*/
+    /*font size é o tamanho da fonte do texto*/
+}
+
+#colEsq {
+	background:#800080;
+	/* cor da coluna esquerda*/
+}
+#sepEsqcolCentral {
+	margin-left:200px;
+	padding-left:100px;
+	background:#800080;
+	/*margin-left define as dimensões da margem esquerda distância do
+	 texto para o texto conseguinte*/
+   /*padding-left define o espaço de preenchimento obrigatório no lado esquerdo
+    do elemento.*/
+    /* background cor da coluna */
+}
+#colDir {
+	background:#800080;
+	 /* background cor da coluna direita */
+  
+}
+#sepcolCentralDir {
+	margin-right:200px;
+	padding-right:3px;
+	background:#800080;
+	/*margin está defindo a margem direita da página*/
+	/*padding define a distância entre o conteúdo do lado direito da página*/
+	 /* background cor da coluna*/
+}
+#colCentral {    
+	background:#800080;
+	width: 650px;
+	 /* background cor da coluna */
+	 /* O width está definido a largura da coluna da página */
+}
+
+#menu{
+    float: right;
+	width: 165px;
+	border-left: 1px solid #000000;
+	padding-left: 15px;
+	position: relative;
+	bottom: 130px;
+	color: #ff0080;
+	/* O float indica que o texto do menu ficara no lado direito da página*/
+	 /* O width está definido a largura do menu da página */
+	/*border está definindo a borda do lado esquerdo do menu*/
+	/* position relative está determinando que o menu da página será posicionado
+	 de acordo com o fluxo natural da página.*/
+	 /*bottom definir a posição vertical do menu em relação a sua borda inferior.*/
+	 /*color é a cor do menu*/
+}
+
+.imageAvril {
+	    position:absolute;
+		left:70px;
+		top:170px;
+		margin-left:420px;
+		margin-top:50px;
+		/* position  indica que a imagem ficará em uma posição fixa em relação à página.*/
+		/* left está posicionando a imagem pra esquerda*/
+		/*margin-left define as dimensões da margem esquerda distância da imagem*/
+		/*top está colocando a imagem no espaçamento acima*/
+		/*margin top indica o espaço acima do*/
+	
+	
+}
+
+.imagem {
+	 position:absolute;
+		left:90px;
+		top:750px;
+		margin-left:400px;
+		margin-top:40px;
+	/* position  indica que a imagem ficará em uma posição fixa em relação à página.*/
+		/* left está posicionando a imagem pra esquerda*/
+		/*margin-left define as dimensões da margem esquerda distância da imagem*/
+		/*top está colocando a imagem no espaçamento acima*/
+		/*margin top indica o espaço acima do*/
+	
+	
+	
+}
+.img{
+	    position:absolute;
+		left:35%;
+		top:230%;
+		/* position  indica que a imagem ficará em uma posição fixa em relação à página.*/
+		/* left está posicionando a imagem pra esquerda*/
+		/*top está colocando a imagem no espaçamento acima*/
+}
+.link{
+	color:#ff0080;
+	/*cor do menu*/
+}
+a:hover{
+	color: #800080;
+	background-color: #ff80ff;
+	/*Ao passar o mouse em cima do link
+    a cor do texto fica roxo e o fundo se torna rosa*/
+}
